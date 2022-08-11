@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SHOOTING GAME</title>
+</head>
+<body>
+    <div class="header">
+        <h1>SHOOTING GAME</h1>
+    </div>
+    <div id="game">
+        <div id="player1">
+            <p class="name-el">PLAYER 1</p>
+        <img id="firstimg" src="shooter.jpg" >
+        </div>
+        <div id="player2">
+            <p>System</p>
+            <img id='flip' src="shooter.jpg">
+        </div>
+    </div>
+<table>
+    <tr>
+        <td></td>
+        <td>Score</td>
+        <td>Wins</td>
+    </tr>
+    <tr>
+        <td class="name-el1">Player1</td>
+        <td id="score1-el"></td>
+        <td id="win1-el"></td>
+    </tr>
+    <tr>
+        <td>System</td>
+        <td id="score2-el"></td>
+        <td id="win2-el"></td>
+    </tr>
+</table>
+<p id="win-el"></p>
+
+<button onclick="start()">Start</button><br>
+<button onclick="shoot()">Shoot</button>
+<button onclick="reset()">Reset</button>
+    
+
+
+<script type="text/javascript" src="game.js"></script>
+</body>
+</html>

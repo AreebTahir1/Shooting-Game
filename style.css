@@ -1,0 +1,46 @@
+*{ 
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.header{border: 0.5vh solid black; 
+            background-color: rgb(127, 255, 238);}
+#game{display: grid;
+        grid-template-columns: auto auto;
+        
+    }
+
+#firstimg{ height:30vh;
+     width: 30vh;
+    }
+#flip{height:30vh;
+  width: 30vh;
+transform: scaleX(-1);
+}
+table, td{border: 2px solid black;
+        border-collapse:collapse ;
+            }
+table{ margin-top: 10vh;
+    margin: auto;
+    }
+td{padding-left: 20vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-size: 3vh;
+    }
+#win-el{
+    color: darkgreen;
+    font-size: 4vh;
+}
+button{ width: 15%;
+margin-top: 1vh;
+padding: 1vh 4vh 1vh 4vh;
+border-radius: 4px;
+background-color: aqua;
+color: red;
+font-size: 4vh;
+
+}
+button:hover {
+    width: 20%;
+    background-color: rgba(0, 195, 255, 0.801);
+  }
